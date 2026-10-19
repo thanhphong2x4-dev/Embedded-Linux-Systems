@@ -11,7 +11,7 @@ Viet Character Device Driver va quan ly File System.
 - [x] B.1 - Them giao dien procfs
 - [x] B.2 - Them giao dien sysfs
 - [x] B.3 - Build va copy module vao rootfs
-- [ ] B.3 - Kiem tra procfs/sysfs tren QEMU
+- [ x] B.3 - Kiem tra procfs/sysfs tren QEMU
 - [ ] Phan C - MTD va JFFS2
 - [ ] Phan D - BusyBox Init
 
