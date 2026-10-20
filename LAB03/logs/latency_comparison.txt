@@ -1,0 +1,29 @@
+LAB 03 - REAL-TIME LATENCY COMPARISON
+
+Environment:
+Ubuntu 26.04.1 LTS
+Kernel: 7.0.0-31-generic
+VirtualBox VM
+cyclictest V 2.80
+
+Test configuration:
+Threads: 2
+Priority: 80
+Interval: 1000 us
+Loops: 10000
+
+                 Standard              CPU Stress
+                T0       T1           T0       T1
+Min (us)         3        2            3        4
+Avg (us)       487      486          248      243
+Max (us)      5556     6517         5062     5114
+Overflows     1130     1187          152      143
+
+Observations:
+- The measured latency varied between test runs.
+- The second run produced lower average latency.
+- VirtualBox scheduling can affect cyclictest results.
+- These measurements do not demonstrate PREEMPT_RT performance.
+- Timing overlap between stress-ng and cyclictest was not
+  independently verified from the screenshots.
+
