@@ -1,0 +1,16 @@
+Policy: fifo
+Priority: 50
+Samples: 1000
+Period: 10 ms
+
+=== Jitter Statistics ===
+Min:  136.000 us
+Mean: 30683.961 us
+Max:  234096.000 us
+P99:  153596.000 us
+
+=== Histogram ===
+< 10 us:      0
+10-50 us:     0
+50-100 us:    0
+>= 100 us:    1000

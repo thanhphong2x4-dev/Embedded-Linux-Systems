@@ -1,0 +1,46 @@
+# To display the perf.data header info, please use --header/--header-only options.
+#
+#
+# Total Lost Samples: 0
+#
+# Samples: 3  of event 'cpu-clock'
+# Event count (approx.): 30303030
+#
+# Overhead  Command       Shared Object     Symbol                
+# ........  ............  ................  ......................
+#
+    66.67%  sms_app_mock  [unknown]         [k] 0xffffffff9429e1eb
+            |
+            ---0xffffffff9429e1eb
+               0xffffffff955309d3
+               0xffffffff95530d97
+               0xffffffff95538aee
+               0xffffffff943773eb
+               0xffffffff94383524
+               0xffffffff94385dee
+               0xffffffff94148f75
+               0xffffffff95520b65
+               0xffffffff93e0012b
+               __syscall_cancel_arch (inlined)
+               __clock_nanosleep (inlined)
+               __nanosleep
+               |          
+               |--33.33%--logger_thread_func
+               |          start_thread
+               |          __clone3 (inlined)
+               |          
+                --33.33%--alert_thread_func
+                          start_thread
+                          __clone3 (inlined)
+
+    33.33%  sms_app_mock  libc.so.6         [.] __nanosleep
+            |
+            ---__nanosleep
+               start_thread
+               __clone3 (inlined)
+
+
+
+#
+# (Cannot load tips.txt file, please install perf!)
+#

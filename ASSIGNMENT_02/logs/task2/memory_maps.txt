@@ -1,0 +1,28 @@
+59d52ffda000-59d52ffdc000 r--p 00000000 08:02 312134                     /home/vboxuser/embedded_asgn2/app/sms_app_mock
+59d52ffdc000-59d52ffdf000 r-xp 00002000 08:02 312134                     /home/vboxuser/embedded_asgn2/app/sms_app_mock
+59d52ffdf000-59d52ffe0000 r--p 00005000 08:02 312134                     /home/vboxuser/embedded_asgn2/app/sms_app_mock
+59d52ffe0000-59d52ffe1000 r--p 00006000 08:02 312134                     /home/vboxuser/embedded_asgn2/app/sms_app_mock
+59d52ffe1000-59d52ffe2000 rw-p 00007000 08:02 312134                     /home/vboxuser/embedded_asgn2/app/sms_app_mock
+59d53860a000-59d53862c000 rw-p 00000000 00:00 0                          [heap]
+7789b0000000-7789b0021000 rw-p 00000000 00:00 0 
+7789b0021000-7789b4000000 ---p 00000000 00:00 0 
+7789b5dfc000-7789b7e00000 rw-p 00000000 00:00 0 
+7789b7e00000-7789b7e28000 r--p 00000000 08:02 3278334                    /usr/lib/x86_64-linux-gnu/libc.so.6
+7789b7e28000-7789b7fc0000 r-xp 00028000 08:02 3278334                    /usr/lib/x86_64-linux-gnu/libc.so.6
+7789b7fc0000-7789b800e000 r--p 001c0000 08:02 3278334                    /usr/lib/x86_64-linux-gnu/libc.so.6
+7789b800e000-7789b8012000 r--p 0020e000 08:02 3278334                    /usr/lib/x86_64-linux-gnu/libc.so.6
+7789b8012000-7789b8014000 rw-p 00212000 08:02 3278334                    /usr/lib/x86_64-linux-gnu/libc.so.6
+7789b8014000-7789b8021000 rw-p 00000000 00:00 0 
+7789b80f2000-7789b80f5000 rw-p 00000000 00:00 0 
+7789b8107000-7789b8109000 rw-p 00000000 00:00 0 
+7789b8109000-7789b810d000 r--p 00000000 00:00 0                          [vvar]
+7789b810d000-7789b810f000 r--p 00000000 00:00 0                          [vvar_vclock]
+7789b810f000-7789b8111000 r-xp 00000000 00:00 0                          [vdso]
+7789b8111000-7789b8112000 r--p 00000000 08:02 3278331                    /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7789b8112000-7789b8141000 r-xp 00001000 08:02 3278331                    /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7789b8141000-7789b814c000 r--p 00030000 08:02 3278331                    /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7789b814c000-7789b814e000 r--p 0003b000 08:02 3278331                    /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7789b814e000-7789b814f000 rw-p 0003d000 08:02 3278331                    /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7789b814f000-7789b8150000 rw-p 00000000 00:00 0 
+7ffde2a42000-7ffde2a63000 rw-p 00000000 00:00 0                          [stack]
+ffffffffff600000-ffffffffff601000 --xp 00000000 00:00 0                  [vsyscall]

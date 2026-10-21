@@ -1,0 +1,64 @@
+[RT] SCHED_FIFO priority 50 unavailable: Operation not permitted
+[MOCK] mlockall disabled for Host memory testing
+=== Sensor Monitoring System ===
+Interval: 500 ms
+Temperature threshold: 40.0 C
+Humidity threshold: 80.0%
+Duration: 60 seconds
+[APP] Circular buffer initialized
+[APP] Alert queue initialized
+[APP] Log queue initialized
+[APP] All 4 threads started
+[ALERT] HIGH TEMPERATURE | Value: 41.0 | Threshold: 40.0 | Time: 13798573 ms
+[ALERT] HIGH TEMPERATURE | Value: 42.0 | Threshold: 40.0 | Time: 13799073 ms
+[ALERT] HIGH TEMPERATURE | Value: 43.0 | Threshold: 40.0 | Time: 13799573 ms
+[ALERT] HIGH TEMPERATURE | Value: 44.0 | Threshold: 40.0 | Time: 13800073 ms
+[ALERT] HIGH TEMPERATURE | Value: 45.0 | Threshold: 40.0 | Time: 13800573 ms
+[ALERT] HIGH HUMIDITY | Value: 81.0 | Threshold: 80.0 | Time: 13808573 ms
+[ALERT] HIGH HUMIDITY | Value: 82.0 | Threshold: 80.0 | Time: 13809073 ms
+[ALERT] HIGH HUMIDITY | Value: 83.0 | Threshold: 80.0 | Time: 13809573 ms
+[ALERT] HIGH HUMIDITY | Value: 84.0 | Threshold: 80.0 | Time: 13810073 ms
+[ALERT] HIGH HUMIDITY | Value: 85.0 | Threshold: 80.0 | Time: 13810573 ms
+[ALERT] HIGH HUMIDITY | Value: 86.0 | Threshold: 80.0 | Time: 13811073 ms
+[ALERT] HIGH TEMPERATURE | Value: 41.0 | Threshold: 40.0 | Time: 13811573 ms
+[ALERT] HIGH HUMIDITY | Value: 87.0 | Threshold: 80.0 | Time: 13811573 ms
+[ALERT] HIGH TEMPERATURE | Value: 42.0 | Threshold: 40.0 | Time: 13812073 ms
+[ALERT] HIGH HUMIDITY | Value: 88.0 | Threshold: 80.0 | Time: 13812073 ms
+[ALERT] HIGH TEMPERATURE | Value: 43.0 | Threshold: 40.0 | Time: 13812573 ms
+[ALERT] HIGH HUMIDITY | Value: 89.0 | Threshold: 80.0 | Time: 13812573 ms
+[ALERT] HIGH TEMPERATURE | Value: 44.0 | Threshold: 40.0 | Time: 13813073 ms
+[ALERT] HIGH HUMIDITY | Value: 90.0 | Threshold: 80.0 | Time: 13813073 ms
+[ALERT] HIGH TEMPERATURE | Value: 45.0 | Threshold: 40.0 | Time: 13813573 ms
+[ALERT] HIGH TEMPERATURE | Value: 41.0 | Threshold: 40.0 | Time: 13824573 ms
+[ALERT] HIGH TEMPERATURE | Value: 42.0 | Threshold: 40.0 | Time: 13825073 ms
+[ALERT] HIGH TEMPERATURE | Value: 43.0 | Threshold: 40.0 | Time: 13825573 ms
+[ALERT] HIGH TEMPERATURE | Value: 44.0 | Threshold: 40.0 | Time: 13826073 ms
+[ALERT] HIGH TEMPERATURE | Value: 45.0 | Threshold: 40.0 | Time: 13826573 ms
+[ALERT] HIGH HUMIDITY | Value: 81.0 | Threshold: 80.0 | Time: 13834073 ms
+[ALERT] HIGH HUMIDITY | Value: 82.0 | Threshold: 80.0 | Time: 13834573 ms
+[ALERT] HIGH HUMIDITY | Value: 83.0 | Threshold: 80.0 | Time: 13835073 ms
+[ALERT] HIGH HUMIDITY | Value: 84.0 | Threshold: 80.0 | Time: 13835573 ms
+[ALERT] HIGH HUMIDITY | Value: 85.0 | Threshold: 80.0 | Time: 13836073 ms
+[ALERT] HIGH HUMIDITY | Value: 86.0 | Threshold: 80.0 | Time: 13836573 ms
+[ALERT] HIGH HUMIDITY | Value: 87.0 | Threshold: 80.0 | Time: 13837073 ms
+[ALERT] HIGH TEMPERATURE | Value: 41.0 | Threshold: 40.0 | Time: 13837573 ms
+[ALERT] HIGH HUMIDITY | Value: 88.0 | Threshold: 80.0 | Time: 13837573 ms
+[ALERT] HIGH TEMPERATURE | Value: 42.0 | Threshold: 40.0 | Time: 13838073 ms
+[ALERT] HIGH HUMIDITY | Value: 89.0 | Threshold: 80.0 | Time: 13838073 ms
+[ALERT] HIGH TEMPERATURE | Value: 43.0 | Threshold: 40.0 | Time: 13838573 ms
+[ALERT] HIGH HUMIDITY | Value: 90.0 | Threshold: 80.0 | Time: 13838573 ms
+[ALERT] HIGH TEMPERATURE | Value: 44.0 | Threshold: 40.0 | Time: 13839073 ms
+[ALERT] HIGH TEMPERATURE | Value: 45.0 | Threshold: 40.0 | Time: 13839573 ms
+[APP] Shutting down...
+[MOCK SENSOR] Samples generated: 117
+
+=== SMS Final Statistics ===
+Samples produced: 117
+Samples consumed: 117
+Buffer overflows: 0
+Samples processed: 117
+Alerts generated: 40
+Alerts received: 40
+Samples logged: 117
+Log rotations: 0
+[APP] Shutdown complete

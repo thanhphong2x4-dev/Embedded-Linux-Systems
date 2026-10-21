@@ -1,0 +1,15 @@
+# started on Wed Oct 21 13:23:06 2026
+
+
+ Performance counter stats for './sms_app_mock -i 500 -t 40 -h 80 -d 30':
+
+            155.47 msec task-clock                                                            
+             3,917      context-switches                                                      
+                80      page-faults                                                           
+
+      30.011398630 seconds time elapsed
+
+       0.098698000 seconds user
+       0.217136000 seconds sys
+
+
