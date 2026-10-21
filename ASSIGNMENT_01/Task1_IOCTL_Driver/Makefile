@@ -6,7 +6,7 @@ obj-m += asgn1_driver.o
 
 all:
 	$(MAKE) -C $(KDIR) M=$(PWD) ARCH=$(ARCH) \
-		CROSS_COMPILE=$(CROSS_COMPILE) modules
+		CROSS_COMPILE=$(CROSS_COMPILE) KCFLAGS="-march=armv7-a" modules
 
 clean:
 	$(MAKE) -C $(KDIR) M=$(PWD) ARCH=$(ARCH) \
